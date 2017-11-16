@@ -5,7 +5,7 @@ class Application
 
     num_1 = 1#Kernel.rand(1..2)
     num_2 = 1#Kernel.rand(1..2)
-    num_3 = 1#Kernel.rand(1..2)
+    num_3 = Kernel.rand(1..2)
 
     resp.write "#{num_1}\n"
     resp.write "#{num_2}\n"
